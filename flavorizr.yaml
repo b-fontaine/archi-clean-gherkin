@@ -1,0 +1,39 @@
+flavors:
+  production:
+    app:
+      name: "Exemple Clean Archi"
+    android:
+      applicationId: "org.compagny.archi_clean_gherkin"
+    ios:
+      bundleId: "org.compagny.archi_clean_gherkino"
+    macos:
+      bundleId: "org.compagny.archi_clean_gherkin"
+  recette:
+    app:
+      name: "Clean Recette"
+    android:
+      applicationId: "org.compagny.archi_clean_gherkin.recette"
+    ios:
+      bundleId: "org.compagny.archi_clean_gherkin.recette"
+    macos:
+      bundleId: "org.compagny.archi_clean_gherkin.recette"
+  dev:
+    app:
+      name: "Clean DEV"
+    android:
+      applicationId: "org.compagny.archi_clean_gherkin.dev"
+    ios:
+      bundleId: "org.compagny.archi_clean_gherkin.dev"
+    macos:
+      bundleId: "org.compagny.archi_clean_gherkin.dev"
+  test:
+    app:
+      name: "Clean Test"
+    android:
+      applicationId: "org.compagny.archi_clean_gherkin.test"
+    ios:
+      bundleId: "org.compagny.archi_clean_gherkin.test"
+    macos:
+      bundleId: "org.compagny.archi_clean_gherkin.test"
+
+ide: idea
