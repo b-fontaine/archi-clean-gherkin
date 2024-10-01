@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import '../flavors.dart';
+import 'recipes/recipe_module.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -14,8 +15,8 @@ class App extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: _flavorBanner(
-        child: Center(
-          child: Text("Under construction"),
+        child: Scaffold(
+          body: RecipeSearch(),
         ),
         show: kDebugMode,
       ),

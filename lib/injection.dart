@@ -15,5 +15,5 @@ const recette = Environment('recette');
   preferRelativeImports: true, // default
   asExtension: true, // default
 )
-void configureDependencies({String? environment}) =>
-    getIt.init(environment: environment ?? F.name);
+void configureDependencies() =>
+    getIt.init(environment: F.name);
