@@ -9,6 +9,7 @@ import 'injection.config.dart';
 final getIt = GetIt.instance;
 
 const recette = Environment('recette');
+const production = Environment('production');
 
 @InjectableInit(
   initializerName: 'init', // default

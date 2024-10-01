@@ -1,0 +1,74 @@
+{
+  "GET": {
+    "statusCode": 200,
+    "data": {
+      "type": "menuItem",
+      "menuItems": [
+        {
+          "id": 365585,
+          "title": "Healthy kiss Sandwich",
+          "image": "https://spoonacular.com/menuItemImages/sandwich.jpg",
+          "imageType": "jpg",
+          "restaurantChain": "4food",
+          "servings": {
+            "number": 1.0,
+            "size": 1.0,
+            "unit": "sandwich"
+          }
+        },
+        {
+          "id": 354955,
+          "title": "Blackened Healthy Salmon",
+          "image": "https://spoonacular.com/menuItemImages/grilled-salmon.jpg",
+          "imageType": "jpg",
+          "restaurantChain": "Original Joe's",
+          "servings": {
+            "number": 1.0,
+            "size": 227.0,
+            "unit": "grams"
+          }
+        },
+        {
+          "id": 362879,
+          "title": "Omelette, Healthy Start",
+          "image": "https://spoonacular.com/menuItemImages/plain-omelet.jpg",
+          "imageType": "jpg",
+          "restaurantChain": "Shari's",
+          "servings": {
+            "number": 1.0,
+            "size": 480.0,
+            "unit": "g"
+          }
+        },
+        {
+          "id": 350743,
+          "title": "Healthy Breakfast Burrito",
+          "image": "https://spoonacular.com/menuItemImages/burrito-plain.jpg",
+          "imageType": "jpg",
+          "restaurantChain": "Egg Harbor Cafe",
+          "servings": {
+            "number": 1.0,
+            "size": null,
+            "unit": null
+          }
+        },
+        {
+          "id": 354966,
+          "title": "Healthy Caesar Salad",
+          "image": "https://spoonacular.com/menuItemImages/caesar-salad.png",
+          "imageType": "png",
+          "restaurantChain": "Original Joe's",
+          "servings": {
+            "number": 1.0,
+            "size": 74.0,
+            "unit": "grams"
+          }
+        }
+      ],
+      "offset": 0,
+      "number": 5,
+      "totalMenuItems": 37,
+      "processingTimeMs": 13
+    }
+  }
+}

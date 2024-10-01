@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import './../steps/lapplication_est_en_cours_dexecution.dart';
-import '../../gherkin/steps/je_saisis_dans_le_champ_de_recherche.dart';
+import './../steps/je_saisis_dans_le_champ_de_recherche.dart';
 import './../steps/jappuie_sur_le_bouton.dart';
 import './../steps/je_vois_les5_premieres_recettes.dart';
 
@@ -22,29 +22,29 @@ void main() {
           tester,
           const bdd.DataTable([
             [
-              "Healthy Chicken Burger",
-              "https://spoonacular.com/menuItemImages/chicken-sandwich.jpg",
-              "Original Joe's"
-            ],
-            [
-              "Mashed Healthy Potato",
-              "https://img.spoonacular.com/menu-items/354978-312x231.jpg",
-              "Original Joe's"
+              "Healthy kiss Sandwich",
+              "https://spoonacular.com/menuItemImages/sandwich.jpg",
+              "4food"
             ],
             [
               "Blackened Healthy Salmon",
-              "https://spoonacular.com/menuItemImages/sandwich.jpg",
+              "https://spoonacular.com/menuItemImages/grilled-salmon.jpg",
               "Original Joe's"
             ],
             [
-              "Roundhouse - Healthy Wheat Bun",
-              "https://spoonacular.com/menuItemImages/roll.jpg",
-              "Original Joe's"
+              "Omelette, Healthy Start",
+              "https://spoonacular.com/menuItemImages/plain-omelet.jpg",
+              "Shari's"
             ],
             [
-              "Healthy Harvest Muffin",
-              "https://spoonacular.com/menuItemImages/bran-muffin.jpg",
-              "Port City Java"
+              "Healthy Breakfast Burrito",
+              "https://spoonacular.com/menuItemImages/burrito-plain.jpg",
+              "Egg Harbor Cafe"
+            ],
+            [
+              "Healthy Caesar Salad",
+              "https://spoonacular.com/menuItemImages/caesar-salad.png",
+              "Original Joe's"
             ]
           ]));
     });
